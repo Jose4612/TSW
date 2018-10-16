@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyPoll</title>
+	<link rel="stylesheet" type="text/css" href="./styles/index_style.css"/>
+</head>
+<body>
+  <header>
+		<div class="header_buttons">
+	    <img src="./icons/inicio_sesion.svg"/>
+			<p>Usuario</p>
+	    <img src="./icons/cierre_sesion.svg"/>
+		</div>
+  </header>
+  <aside>
+    <ul>
+			<li>Mis encuestas</li>
+			<li>Crear encuesta</li>
+    </ul>
+  </aside>
+  <article>
+    <form name="login_form" method="post" >
+      <div class="form_item">
+        <label>Nombre</label>
+        <input type="text" name="login_name" title="Nombre"/>
+      </div>
+      <div class="form_item">
+        <label>Email</label>
+        <input type="email" name="login_email" title="Email"/>
+      </div>
+      <div class="form_item">
+        <label>Password</label>
+        <input type="password" name="login_password" title="Password" />
+      </div>
+			<div class="form_buttons">
+				<button name = "action" value = "register" type="submit">
+					<img src="./icons/registrarse.svg"/>
+				</button>
+				<button  type="reset">
+					<img src="./icons/rechazar.svg"/>
+				</button>
+			</div>
+    </form>
+  </article>
+</body>
+<footer>
+	<p>Pie de la aplicació</p>
+</footer>
+</html>
